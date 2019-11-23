@@ -1,7 +1,7 @@
 const mongoose = require('mongoose'),
     Schema = mongoose.Schema;
 
-var EstadioSchema = new Schema({
+var EstadioSchema = new Schema( {
     nombre:{
         type: Schema.Types.ObjectId,
         required: true,
